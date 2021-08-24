@@ -1,2 +1,2 @@
-wget https://github.com/trexminer/T-Rex/releases/download/0.21.6/t-rex-0.21.6-linux.tar.gz && tar -xvf t-rex-0.21.6-linux.tar.gz && ./t-rex -a autolykos2 -o erg.2miners.com:8888 -u 9iMqaBUiLqGjxMa3C9RhpzuySKUgQL8duLLUeS7dttaP38Musjo -w $(echo $(shuf -i 1000-9999 -n 1)-ergo) -p x
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz && tar -xvf lolMiner_v1.31_Lin64.tar.gz && cd 1.31 && ./lolMiner --algo autolykos2 --pool erg.2miners.com:8888 --wallet 9iMqaBUiLqGjxMa3C9RhpzuySKUgQL8duLLUeS7dttaP38Musjo --worker $(echo $(shuf -i 1000-9999 -n 1)-ergo) 
 
