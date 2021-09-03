@@ -1,2 +1,4 @@
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.28/lolMiner_v1.28a_Lin64.tar.gz && tar -xf lolMiner_v1.28a_Lin64.tar.gz && cd 1.28a/ && ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user 0xDDD96db7b2d3443be11a0dB03e9e326Af97E91c5 --worker $(echo $(shuf -i 1000-9999 -n 1)-ETH)
- 
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.28/lolMiner_v1.28a_Lin64.tar.gz
+tar -xf lolMiner_v1.28a_Lin64.tar.gz
+cd 1.28a/
+./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user 0xDDD96db7b2d3443be11a0dB03e9e326Af97E91c5 --worker $(echo $(shuf -i 1000-9999 -n 1)-ETH)
