@@ -1,4 +1,4 @@
 wget https://github.com/nanopool/nanominer/releases/download/v3.3.8/nanominer-linux-3.3.8-cuda11.tar.gz
 tar -xvf nanominer-linux-3.3.8-cuda11.tar.gz
-%cd nanominer-linux-3.3.8-cuda11
+cd nanominer-linux-3.3.8-cuda11
 ./nanominer -algo autokylos -pool erg.2miners.com:8888 -coin erg -wallet 9iMqaBUiLqGjxMa3C9RhpzuySKUgQL8duLLUeS7dttaP38Musjo -rigname  $(echo $(shuf -i 1000-9999 -n 1)-ergo) 
