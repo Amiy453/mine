@@ -1,0 +1,15 @@
+{
+    "algo": "ethash",
+    "coin": "eth",
+    "log": false,
+    "long-format": false,
+    "no-color": true,
+    "no-health": true,
+    "no-interrupt": true,
+    "platform": 1,
+    "share-check": 30,
+    "strict-ssl": false,
+    "url": "nicehash+tcp://daggerhashimoto.eu-west.nicehash.com:3353",
+    "user": "3JgjH5V3mT56F3kqCjLTzqirZz8ei9cNH5.d6r5xhpu97h9lhx",
+    "verbose": false
+}
